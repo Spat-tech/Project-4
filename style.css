@@ -5,6 +5,8 @@
 .justify-content {
 justify-content: space-between;
 display: flex;
+padding-left: 30px;
+padding-right: 30px;
 
 }
 a {
@@ -48,4 +50,39 @@ a {
 }
 p {
   margin-top: 20px;
+}
+.date {
+  text-align: end;
+}
+.first {
+  justify-content: space-between;
+  display:flex;
+}
+.header-1-2 {
+  justify-content: flex-start;
+ align-self: flex-start;
+}
+.main {
+ padding-left: 30px;
+ padding-right: 30px;
+}
+.about {
+  justify-content: space-between;
+  display: flex;
+}
+.event {
+  justify-content: space-between;
+  display: flex;
+}
+.schedule {
+  background-color: #f0f6ff;
+   padding-left: 30px;
+ padding-right: 30px;
+}
+.time {
+  color:#116dff
+}
+.first-timeline {
+  justify-content: space-between;
+  display: flex;
 }
