@@ -1,0 +1,17 @@
+.justify-content {
+justify-content: space-between;
+display: flex;
+}
+a {
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
+  
+}
+.button {
+  padding: 20px 30px;
+  background-color: #116dff;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
