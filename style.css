@@ -82,7 +82,37 @@ p {
 .time {
   color:#116dff
 }
-.first-timeline {
+.first-timeline, .second-timeline {
+justify-content: space-between;
+  display: flex;  
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.meet {
+  padding-left: 30px;
+ padding-right: 30px;
+}
+.speakers, .speaker-images {
   justify-content: space-between;
   display: flex;
+}
+.organisers {
+  padding-left: 30px;
+ padding-right: 30px;
+ background-color: #f0f6ff;
+}
+.org-content {
+justify-content: space-between;
+  display: flex;
+  
+}
+.logo {
+  padding-left: 30px;
+ padding-right: 30px;
+ 
+}
+.sponsors {
+  justify-items: center;
+  padding-left: 30px;
+ padding-right: 30px;
 }
